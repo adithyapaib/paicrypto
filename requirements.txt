@@ -1,3 +1,2 @@
-pycrypto
 pycryptodome
 rsa-python

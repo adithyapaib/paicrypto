@@ -84,6 +84,23 @@ For more detailed information on each method, refer to the `help()` function pro
 
 Contributions to CryptoLib are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or create a pull request on GitHub.
 
+
+## Build Commands
+
+-To build the wheel file, run the following command:
+
+
+``` 
+python setup.py sdist bdist_wheel
+```
+
+-To upload the wheel file to PyPi, run the following command:
+
+``` 
+
+twine upload dist/*
+``` 
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
